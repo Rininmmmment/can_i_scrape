@@ -1,0 +1,25 @@
+{
+    "name": "Can I scrape?",
+    "description": "スクレイピング可能なサイトかどうかをチェックします。",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "permissions": ["tabs", "notifications", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+      "default_icon": "icon.png"
+    }
+  }
+  
