@@ -14,7 +14,7 @@
 
 ## コントリビューション
 
-バグ報告や機能追加の提案は、[GitHub Issues](https://github.com/yourusername/yourrepository/issues)にて受け付けています。プルリクエストも歓迎です。
+バグ報告や機能追加の提案は、[GitHub Issues](https://github.com/Rininmmmment/can_i_scrape/issues)にて受け付けています。プルリクエストも歓迎です。
 
 ## 免責事項
 
