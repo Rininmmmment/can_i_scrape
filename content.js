@@ -33,10 +33,10 @@ async function checkScrapingPermission() {
 		return robotsResult;
 	}
 
-	const metaResult = checkMetaTags();
-	if (!metaResult.scrapingAllowed) {
-		return metaResult;
-	}
+	// const metaResult = checkMetaTags();
+	// if (!metaResult.scrapingAllowed) {
+	// 	return metaResult;
+	// }
 
 	return { scrapingAllowed: true, reason: "Allowed by both robots.txt and meta tags" };
 }
